@@ -1,0 +1,87 @@
+#portfolio {
+  height: 100vh;
+}
+
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.portfolio-container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.portfolio-container h1 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: red;
+  margin: 0 20px;
+}
+
+.portfolio-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.portfolio-content {
+  background: black;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: all 0.8s ease;
+}
+
+.portfolio-content:hover {
+  background: red;
+}
+
+.portfolio-image {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.portfolio-image img {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.portfolio-content h3 {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.portfolio-content p {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: white;
+  margin-bottom: 50px;
+}
